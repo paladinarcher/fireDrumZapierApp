@@ -1,0 +1,24 @@
+{
+  "name": "fire_drum_zapier_application",
+  "version": "1.0.0",
+  "description": "A Zapier application for FireDrum.",
+  "repository": "https://github.com/paladinarcher/fireDrumZapierApp",
+  "author": "support <support@paladinarcher.com>",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": ">=5.6.0"
+  },
+  "dependencies": {
+    "zapier-platform-core": "7.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.0",
+    "zapier-platform-cli": "^7.6.1"
+  }
+}
